@@ -57,7 +57,7 @@
     "@types/node": "^15.0.1",
     "@types/react": "^17.0.0",
     "@types/yoastseo": "file:@types/yoastseo",
-    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
     "@typescript-eslint/parser": "^3.9.1",
     "babel-jest": "^27.0.2",
     "eslint": "^7.7.0",
