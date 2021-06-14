@@ -1,21 +1,8 @@
 import Analysis from "../values/Analysis";
 import Paper from "../values/Paper";
+import InitializeAnalysisWorkerConfiguration from "./InitializeAnalysisWorkerConfiguration";
 
 export default AnalysisWorkerWrapper;
-
-declare interface InitializeConfiguration {
-  contentAnalysisActive?: boolean;
-  keywordAnalysisActive?: boolean;
-  useCornerstone?: boolean;
-  useTaxonomy?: boolean;
-  useKeywordDistribution?: boolean;
-  locale?: string;
-  translations?: Object;
-  researchData?: Object;
-  defaultQueryParams?: Object;
-  logLevel?: string;
-  enabledFeatures?: string[];
-}
 
 /**
  * Analysis worker is an API around the Web Worker.
@@ -37,7 +24,7 @@ declare class AnalysisWorkerWrapper {
      *
      * @returns {Promise} The promise of initialization.
      */
-  initialize(configuration: InitializeConfiguration): Promise<any>;
+  initialize(configuration: InitializeAnalysisWorkerConfiguration): Promise<any>;
   /**
      * Analyzes the paper.
      *

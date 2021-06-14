@@ -7,9 +7,12 @@ declare namespace _default {
   // export { Researcher };
   // export { SnippetPreview };
   export { Paper };
+  export { PaperAttributes };
+  export { Analysis };
   export { AssessmentResult };
   export { AnalysisWebWorker };
   export { AnalysisWorkerWrapper };
+  export { InitializeAnalysisWorkerConfiguration };
   export { createWorker };
   export { assessments };
   // export { bundledPlugins };
@@ -37,6 +40,7 @@ import AssessmentResult from "./src/values/AssessmentResult";
 import Assessment from "./src/assessment";
 import { AnalysisWebWorker } from "./src/worker";
 import { AnalysisWorkerWrapper } from "./src/worker";
+import { InitializeAnalysisWorkerConfiguration } from "./src/worker";
 import { createWorker } from "./src/worker";
 import * as assessments from "./src/assessments";
 // import * as bundledPlugins from "./src/bundledPlugins";
@@ -49,6 +53,7 @@ import * as interpreters from "./src/interpreters";
 export {
   AnalysisWebWorker,
   AnalysisWorkerWrapper,
+  InitializeAnalysisWorkerConfiguration,
   // App,
   Assessment,
   AssessmentResult,
