@@ -35,4 +35,5 @@ function buildCfg(format, plugins = []) {
 module.exports = [
   buildCfg("cjs"),
   buildCfg("es"),
+  buildCfg("umd"),
 ];
