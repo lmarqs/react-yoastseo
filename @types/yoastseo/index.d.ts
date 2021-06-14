@@ -19,7 +19,9 @@ declare namespace _default {
   export { string };
   export { interpreters };
 }
+
 export default _default;
+
 // import App from "./src/app";
 // import Assessor from "./src/assessor";
 // import ContentAssessor from "./src/contentAssessor";
@@ -29,6 +31,8 @@ export default _default;
 // import Researcher from "./src/researcher";
 // import SnippetPreview from "./src/snippetPreview";
 import Paper from "./src/values/Paper";
+import PaperAttributes from "./src/values/PaperAttributes";
+import Analysis from "./src/values/Analysis";
 import AssessmentResult from "./src/values/AssessmentResult";
 import Assessment from "./src/assessment";
 import { AnalysisWebWorker } from "./src/worker";
@@ -58,6 +62,8 @@ export {
   interpreters,
   markers,
   Paper,
+  PaperAttributes,
+  Analysis,
   // Pluggable,
   // Researcher,
   // SeoAssessor,

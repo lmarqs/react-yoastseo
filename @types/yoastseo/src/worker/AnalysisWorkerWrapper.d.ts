@@ -1,3 +1,6 @@
+import Analysis from "../values/Analysis";
+import Paper from "../values/Paper";
+
 export default AnalysisWorkerWrapper;
 
 declare interface InitializeConfiguration {
@@ -42,7 +45,7 @@ declare class AnalysisWorkerWrapper {
      *
      * @returns {Promise} The promise of analyses.
      */
-  analyze(paper: any): Promise<any>;
+  analyze(paper: Paper): Promise<Analysis>;
   /**
      * Analyzes the paper.
      *
