@@ -52,7 +52,7 @@
     "@semantic-release/release-notes-generator": "^9.0.1",
     "@testing-library/react-hooks": "^7.0.0",
     "@types/jest": "^26.0.23",
-    "@types/node": "^15.0.1",
+    "@types/node": "^16.0.0",
     "@types/react": "^17.0.0",
     "@types/yoastseo": "file:@types/yoastseo",
     "@typescript-eslint/eslint-plugin": "^4.27.0",
